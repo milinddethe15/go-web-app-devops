@@ -1,19 +1,11 @@
-# Go Web Application
+# Devops Practice
+* Used a go web app
+* Created following things for it:
+    1. Dockerfile
+    2. k8s manifest
+    3. Helm chart
+* Setup CI/CD using Github Actions and ArgoCD
 
-This is a simple website written in Golang. It uses the `net/http` package to serve HTTP requests.
-
-## Running the server
-
-To run the server, execute the following command:
-
-```bash
-go run main.go
-```
-
-The server will start on port 8080. You can access it by navigating to `http://localhost:8080/courses` in your web browser.
-
-## Looks like this
-
-![Website](static/images/golang-website.png)
-
-
+---
+## Architecture
+![Architecture Diagram](img/arch-diagram.png)
